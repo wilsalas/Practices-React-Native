@@ -8,7 +8,7 @@ import {
 
 import Net from '../screens/net';
 import Recording from '../screens/recording';
-
+import Brightness from '../screens/brightness';
 import SideBar from "../screens/sidebar";
 
 
@@ -22,6 +22,9 @@ const Drawer = createDrawerNavigator(
         Recording: {
             screen: Recording,
         },
+        Brightness: {
+            screen: Brightness
+        }
     }, {
         initialRouteName: 'Net',
         contentOptions: {
@@ -34,9 +37,12 @@ const Drawer = createDrawerNavigator(
 /* Definir los screens generales del app */
 const AppNavigator = createStackNavigator(
     {
-        Drawer: { screen: Drawer }
+        Drawer: { screen: Drawer },
+        Brightness: {
+            screen: Brightness
+        }
     }, {
-        initialRouteName: 'Drawer',
+        initialRouteName: 'Brightness',
         headerMode: 'none'
     }
 )
