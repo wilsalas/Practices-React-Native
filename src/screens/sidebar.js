@@ -28,7 +28,7 @@ const datas = [
     },
     {
         name: "Modificar Brillo",
-        route: "Brush",
+        route: "Brightness",
         icon: "brush"
     },
 ];

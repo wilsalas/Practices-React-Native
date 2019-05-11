@@ -6,7 +6,7 @@ import {
 export default class Recording extends Component {
     render() {
         return (
-            <Text>Hola mundo </Text>
+            <Text>Hola mundo Recording </Text>
         );
     }
 }
